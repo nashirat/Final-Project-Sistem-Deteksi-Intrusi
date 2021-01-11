@@ -1,7 +1,7 @@
 # Final Project Sistem Deteksi Intrusi
-#### Muhammad Sulthon Nashir
-#### 05311840000011
-#### Teknologi Informasi
+## Muhammad Sulthon Nashir
+## 05311840000011
+## Teknologi Informasi
 
 Tool untuk mengecek integritas files pada server.
 
