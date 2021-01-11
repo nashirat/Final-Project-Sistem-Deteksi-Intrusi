@@ -1,10 +1,16 @@
-# Remote Integrity Tool
+# Final Project Sistem Deteksi Intrusi
+#### Muhammad Sulthon Nashir
+#### 05311840000011
+#### Teknologi Informasi
+
 Tool untuk mengecek integritas files pada server.
 
-## Dependencies
-* **Python version**: 3.6.0+ (3.6.7 digunakan untuk pembuatan)
+### Requirement
+* Pyhthon 3.6.0+
+* Windows
+* Linux / OSX
 
-## Installation
+### Instalasi
 Clone ke direktori, lalu jalankan :
 
 ### Linux / OSX
@@ -21,12 +27,12 @@ Clone ke direktori, lalu jalankan :
     C:\Users\You\Integrity> .\venv\Scripts\activate.bat
     C:\Users\You\Integrity> pip install .
     
-## Usage (Remote Integrity tool)
+### Penggunaan
 Untuk menggunakan, jalankan:
 
-    $ remote-integrity --config {path to config file}.cfg
+    $ remote-integrity --config {path_ke_file_config}.cfg
 
-## Configuration file format
+### Contoh File Config
 
     [server]
     server_name=Nama server
@@ -47,6 +53,5 @@ Untuk menggunakan, jalankan:
     telegram_api_token={your api token}
     telegram_api_chat_id={your chat id}
     
-## Skipping notifications
 
-    Kosongkan api atau chat id.
+    NB: Kosongkan api / chat_id jika tidak ingin ada push notification
