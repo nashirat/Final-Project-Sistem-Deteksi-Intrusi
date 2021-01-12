@@ -14,19 +14,19 @@ Tool untuk mengecek integritas files pada server.
 Clone ke direktori, lalu jalankan :
 
 ### Linux / OSX
-
+    ```
     $ pip install virtualenv --user     # Install virtualenv
     $ virtualenv venv                   # Set up virtual environment 
     $ source venv/bin/activate          # Aktivasi virtual environment (Harus dilakukan setiap ingin menjalankan tool)
     $ pip install .                     # Install (use -e for development)
-
+    ```
 ### Windows
-
+    ```
     C:\Users\You\Integrity> pip install virtualenv --user
     C:\Users\You\Integrity> virtualenv venv
     C:\Users\You\Integrity> .\venv\Scripts\activate.bat
     C:\Users\You\Integrity> pip install .
-    
+    ```
 ### Penggunaan
 Untuk menggunakan, jalankan:
 
