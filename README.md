@@ -3,6 +3,7 @@
 ## 05311840000011
 ## Teknologi Informasi
 
+### Remote Server Integrity
 Tool untuk mengecek integritas files pada server.
 
 ### Requirement
@@ -22,16 +23,16 @@ Clone ke direktori, lalu jalankan :
 ```
 ### Windows
 ```
-  C:\Users\You\Integrity> pip install virtualenv --user
+  C:\path\ke\program> pip install virtualenv --user
   C:\Users\You\Integrity> virtualenv venv
   C:\Users\You\Integrity> .\venv\Scripts\activate.bat
   C:\Users\You\Integrity> pip install .
 ```
 ### Penggunaan
 Untuk menggunakan, jalankan:
-
-    $ remote-integrity --config {path_ke_file_config}.cfg
-
+```
+$ remote-integrity --config {path_ke_file_config}.cfg
+```
 ### Contoh File Config
  ```
    [server]
