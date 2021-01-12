@@ -16,10 +16,10 @@ Clone ke direktori, lalu jalankan :
 
 ### Linux / OSX
 ```
- $ pip install virtualenv --user     # Install virtualenv
- $ virtualenv venv                   # Set up virtual environment 
- $ source venv/bin/activate          # Aktivasi virtual environment (Harus dilakukan setiap ingin menjalankan tool)
- $ pip install .                     # Install (use -e for development)
+ $ pip install virtualenv --user
+ $ virtualenv venv      
+ $ source venv/bin/activate   
+ $ pip install .
 ```
 ### Windows
 ```
