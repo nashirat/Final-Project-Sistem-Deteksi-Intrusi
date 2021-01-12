@@ -33,25 +33,24 @@ Untuk menggunakan, jalankan:
     $ remote-integrity --config {path_ke_file_config}.cfg
 
 ### Contoh File Config
-
-    [server]
-    server_name=Nama server
-    server_port=22
-    server_address=127.0.0.1
+   [server]
+   server_name=Nama server
+   server_port=22
+   server_address=127.0.0.1
     
-    [auth]
-    auth_username=usrname
-    auth_private_key=~/.ssh/id_rsa
+   [auth]
+   auth_username=usrname
+   auth_private_key=~/.ssh/id_rsa
 
-    [filter]
-    scan_php_modules = yes
-    start_directory=~/Documents/
-    ignore_files=.gitignore
-    ignore_directories=.git,fonts
+   [filter]
+   scan_php_modules = yes
+   start_directory=~/Documents/
+   ignore_files=.gitignore
+   ignore_directories=.git,fonts
     
-    [telegram]
-    telegram_api_token={your api token}
-    telegram_api_chat_id={your chat id}
+   [telegram]
+   telegram_api_token={your api token}
+   telegram_api_chat_id={your chat id}
     
 
-    NB: Kosongkan api / chat_id jika tidak ingin ada push notification
+   NB: Kosongkan api / chat_id jika tidak ingin ada push notification
