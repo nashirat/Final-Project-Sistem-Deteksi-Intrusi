@@ -33,6 +33,7 @@ Untuk menggunakan, jalankan:
     $ remote-integrity --config {path_ke_file_config}.cfg
 
 ### Contoh File Config
+ ```
    [server]
    server_name=Nama server
    server_port=22
@@ -54,3 +55,4 @@ Untuk menggunakan, jalankan:
     
 
    NB: Kosongkan api / chat_id jika tidak ingin ada push notification
+```
