@@ -58,4 +58,3 @@ $ remote-integrity --config {path_ke_file_config}.cfg
 
    NB: Kosongkan api / chat_id jika tidak ingin ada push notification
 ```
-Thanks to DearBytes
